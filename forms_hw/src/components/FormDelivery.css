@@ -1,0 +1,28 @@
+.errorPickUp
+{
+    color: red;
+}
+
+.form-check 
+{
+    margin-bottom: 10px;
+ }
+  .radio-group {
+    margin-top: 20px;
+  }
+  .form-check-label {
+    margin-right: 10px;
+  }
+  .price {
+    margin-left: 10px;
+    color: grey;
+  }
+
+form
+{
+    display: flex;
+    width: 500px;
+    padding: 8px;
+    flex-direction: column;
+    border: solid 0.5px gray;
+}

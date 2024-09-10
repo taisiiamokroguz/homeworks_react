@@ -1,0 +1,11 @@
+.form-div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-div
+{
+    display: flex;
+    margin-top: 100px;
+}
