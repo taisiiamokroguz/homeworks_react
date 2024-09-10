@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Фен Rowenta PRO EXPERT CV8820F0",
+        "exprice": "$50",
+        "price": "$40"
+    },
+    {
+       " id": 2,
+       " name": "Фен Rowenta x KARL LAGERFELD GLOW ADDICT CV613LF0",
+        "exprice": "$60",
+        "price": "$50"
+    },
+    {
+        "id": 3,
+        "name": "Набір для прибирання Idea Home DS-342C Grey-Blue",
+        "exprice": "$20",
+        "price": "$10"
+    },
+    {
+        "id": 4,
+        "name": "Сушарка для білизни Eurogold 18 м Чорна (D0503SE)",
+        "exprice": "$30",
+       " price": "$25"
+    }
+]
