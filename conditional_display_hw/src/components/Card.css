@@ -1,0 +1,55 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    border: solid gray 2px;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card .button-disc {
+    overflow: hidden;
+    background-color: blue;
+    color: white;
+}
+
+.card .exprice {
+    text-decoration: line-through;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.prices {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.exprice {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+  
+  .price {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .photo-product {
+    width: 100px;
+    height: 75px;
+  }
