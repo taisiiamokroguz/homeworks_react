@@ -1,0 +1,89 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    border: solid gray 2px;
+    padding: 10px;
+    width: 100%;
+    height: 175px;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between; 
+    box-sizing: border-box; 
+}
+
+.counter
+{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+
+}
+
+.minusBtn
+{
+    margin-right: 5px;
+}
+
+.plusBtn
+{
+    margin-left: 5px;
+}
+
+.counter button
+{
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
+    text-align: center;
+    display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.counter input 
+{
+    width:30px;
+    height: 10px;
+    text-align: center;
+}
+
+.prices
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-heart {
+    width: 15px;
+    height: 15px;
+    align-self: flex-end; 
+}
+
+.photo-product 
+{
+    width: 100px; 
+    height: 75px; 
+}
+
+.exprice {
+    color: gray;
+    margin: 5px 0; 
+    text-decoration: line-through; 
+    font-size: 13px;
+}
+
+.price {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0; 
+}
+
+
+.name
+{
+    font-style: bold;
+    font-size: 15px;
+    width:35%;
+    text-wrap: wrap;
+}
