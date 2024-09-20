@@ -1,4 +1,4 @@
-[
+{"products":[
     {
         "id": 1,
         "name": "Фен Rowenta PRO EXPERT CV8820F0",
@@ -24,3 +24,4 @@
        " price": "$25"
     }
 ]
+}

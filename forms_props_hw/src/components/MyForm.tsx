@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
-import "./MyForm.css"
+import "./MyForm.css";
 
-const MyForm = ({ onAddItem }) => {
-  const [title, setTitle] = useState('');
-  const [price, setPrice] = useState('');
 
-  const handleSubmit = (e) => {
+interface MyFormProps {
+  onAddItem: (title: string, price: number) => void;
+}
+
+const MyForm: React.FC<MyFormProps> = ({ onAddItem }) => {
+  const [title, setTitle] = useState<string>('');
+  const [price, setPrice] = useState<string>(''); 
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (title && price) {
-      onAddItem(title, price);
+    const priceValue = parseFloat(price); 
+    if (title && !isNaN(priceValue)) {
+      onAddItem(title, priceValue); 
       setTitle('');
       setPrice('');
     }

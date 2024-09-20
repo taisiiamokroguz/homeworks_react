@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import "./Card.css"
+import { ICard } from '../types/ICard';
 
-const Card = ({ name, exprice, price }) => {
+
+const Card :React.FC<ICard>= ({ name, exprice, price }) => {
 
     return (
         <div className="card">
@@ -15,4 +17,3 @@ const Card = ({ name, exprice, price }) => {
 };
 
 export default Card;
-  
